@@ -1,0 +1,27 @@
+main .home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fond1.jpg');
+  background-size: cover;
+  border-radius: 0px;
+}
+main .about .img_600_parent {
+  border-right: 3px solid #007bff!important;
+}
+main .about .about-txt {
+  font-size: 13px;
+}
+@media screen and (min-width: 48em) {
+  main .about .about-txt {
+    font-size: 1rem;
+  }
+}
+main .folio-bigdad .folio-dad .radius-top-left {
+  border-top-right-radius: 200px 20px;
+  height: 20px;
+  background-color: #007bff;
+  position: relative;
+  margin-top: -20px;
+}
+main .folio-bigdad .folio-dad2 {
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+}

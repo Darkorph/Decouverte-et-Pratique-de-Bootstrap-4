@@ -1,0 +1,38 @@
+@tablet:	~'screen and (min-width: 48em)';
+main {
+    .home {
+        height: 100vh;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+        ),url('../img/fond1.jpg');
+        background-size: cover;
+        border-radius: 0px;
+    }
+    .about {
+        .img_600_parent {
+           border-right:  3px solid #007bff!important;
+        }
+        .about-txt {
+            font-size: 13px;
+            @media @tablet {
+                font-size: 1rem;
+            }
+        }
+    }
+    .folio-bigdad {
+        .folio-dad {
+            .radius-top-left {
+                border-top-right-radius: 200px 20px;
+                height: 20px;
+                background-color: #007bff;
+                position: relative;
+                margin-top: -20px;   
+            }
+        }
+        .folio-dad2 {
+            box-shadow: 1px 1px 30px rgba(0,0,0,0.4);
+
+        }
+    }
+}
